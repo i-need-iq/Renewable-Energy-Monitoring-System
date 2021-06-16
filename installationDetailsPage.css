@@ -1,0 +1,49 @@
+.bodyOfOverview{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height:100%;
+  grid-row-gap: 10px;
+  margin: auto;
+  width:90%;
+}
+h3{
+  margin: 0;
+  padding: 0;
+}
+.Overviewfirst{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width:90%;
+  margin:auto;
+  grid-column-gap:10px;
+  padding-left: 20px;
+}
+
+.PlantOverview , .Graph{
+  padding:20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.PlantOverview li{
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Graph{
+  grid-template-rows: 9fr 1fr
+}
+.Overviewsecond{
+  width:70%;
+  margin:auto;
+  background-color: white;
+  padding-left: 20px;
+  border-radius: 10px;
+
+}
+.HistoryGraph form button:hover{
+  color:white;
+  background-color: black;
+}
+.HistoryGraph form input{
+  width:50%;
+}

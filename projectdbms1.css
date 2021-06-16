@@ -1,0 +1,270 @@
+body{
+  background-color: #FF00FF;
+
+}
+#h3{
+  margin:auto;
+  width:90%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.navbar{
+  margin-left: 100px;
+}
+.dropdown{
+    float:right;
+    margin-bottom: 20px;
+}
+.dropdown .dropbtn{
+  font-style: bold;
+  color: white;
+  font-size:20px;
+  padding: 14px 16px;
+  background-color: inherit;
+  outline: none;
+  margin:0;
+  border:none;
+}
+.dropdown:hover .dropbtn{
+  background:black;
+  color:white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover .dropdown-content{
+  background-color: #f0f0f0;
+  color:black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar a{
+  float:left;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background:black;
+}
+#imgHeading{
+  position: absolute;
+  top:10px;
+  margin:auto;
+}
+.m{
+  flex:50%;
+}
+.main{
+  background-color: #FF00FF;
+  margin: auto;
+  width:100%;
+  height:100%;
+  display:flex;
+
+}
+.phoneNumber{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 0;
+}
+img{
+  width:100%;
+  height:100%;
+
+}
+
+.error p{
+  font-size: 15px;
+  width:90%;
+  margin:auto;
+}
+.error{
+  background: #ff304f;
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width:80%;
+  border: black;
+  border-radius: 5px;
+  border-color: black;
+  border-style: dashed;
+  padding:5px;
+}
+
+.form{
+  margin-top: 60px;
+  align:center;
+  display:grid;
+  grid-template-rows: repeat(7,1fr);
+  grid-row-gap: 20px;
+  width:80%;
+  margin: auto;
+  margin-top: 60px;
+
+}
+input{
+  width:100%;
+  margin-left: 5px;
+  align-content: center;
+  height:40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+.submit{
+  width:100%;
+  margin-bottom: 0;
+  margin-left: 5px;
+  align-content: center;
+  height:40px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+}
+.submit:hover{
+  color:white;
+  background-color: black;
+}
+select{
+  width:100%;
+  margin-left: 5px;
+  align-content: center;
+  height:40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+.name{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.password{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.log{
+  margin: auto;
+  align-self: center;
+  margin-top: 0;
+}
+.log p{
+  font-size: 20px;
+}
+
+.login{
+  background-color: #5d5d5a;
+  margin: auto;
+  width:100%;
+  height:100%;
+  display:flex;
+
+
+}
+.h3login{
+  margin:auto;
+  width:90%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.headerImg{
+  margin:0;
+  width:100%;
+  height:200px;
+  
+}
+.headImg{
+	margin:0;
+  width:100%;
+  height:450px;
+	
+	
+}
+.side{
+  height:90%;
+  margin-bottom: 20px;
+}
+.homepageSection{
+  margin:auto;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+.homepage{
+  display:block;
+}
+.homepageTypes{
+  margin: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+
+}
+.homeTypes{
+  background-color: #CCCCCC;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.homeTypes h4{
+  font-size: 25px;
+}
+.energytypes{
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.energytypes h2{
+  text-align: center;
+  font-size: 30px;
+
+}
+.Content{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height:500px;
+  grid-column-gap: 10px;
+}
+.homepageSection p{
+  font-size: 20px;
+}
+.homepageSection h3{
+  font-size: 30px;
+}
+
+.service{
+  font-size: 20px;
+}
+.aboutus{
+  font-size: 20px;
+}
+footer{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}

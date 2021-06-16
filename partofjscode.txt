@@ -1,0 +1,30 @@
+const loggedin=document.querySelector(".submit");
+loggedin.addEventListener('click',(e)=>{
+e.preventDefault();
+const login=document.querySelector(".login");
+login.style.display="none";
+const main=document.querySelector(".main");
+main.style.display="none";
+const homepage=document.querySelector(".homepage");
+homepage.style.display="block";
+});
+
+
+
+
+<div class="error">
+    <?php foreach ($errors as $error):?>
+      <?php $errorstr=$errorstr.$error.","; ?>
+    <?php endforeach ?>
+    <?php if(count($errors)==1):?>
+      <?php $errorstr=$errorstr."field is required";?>
+      <p><?php echo $errorstr; ?></p>
+    <?php endif ?>
+    <?php if(count($errors)>1):?>
+      <?php $errorstr=$errorstr."fields are required"."fields are required"."fields are required"."fields are required"."fields are required"."fields are required";?>
+      <p><?php echo $errorstr; ?></p>
+    <?php endif ?>
+
+  </div>
+
+<input type='submit' value='Create Account' name='RegisterClicked'>

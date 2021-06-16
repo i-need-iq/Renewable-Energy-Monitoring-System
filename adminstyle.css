@@ -1,0 +1,16 @@
+.user-logo h2{
+    color:gray;
+}
+input{
+    border: 1px solid rgb(214, 214, 199) !important;
+}
+body {
+    zoom:90%;
+}
+
+.modal-backdrop {
+    opacity:0 !important;
+}
+#sidebarCollapse {
+    background-color: #32373d !important;
+}
